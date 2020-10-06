@@ -1,0 +1,22 @@
+{
+  "name": "vimtutor",
+  "version": "0.0.1",
+  "description": "vimtutor using monaco-editor with vim bindings",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Trevor Manz",
+  "license": "MIT",
+  "dependencies": {
+    "monaco-editor": "^0.20.0",
+    "monaco-vim": "^0.1.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-html": "^0.2.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.28.2",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-postcss": "^3.1.8"
+  }
+}
